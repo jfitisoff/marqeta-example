@@ -1,0 +1,10 @@
+source "https://rubygems.org"
+
+gem "activesupport", ">=4.2.5"
+gem "addressable", ">=2.5.1"
+gem "klient", git: "https://github.com/jfitisoff/klient.git", branch: "return-resources"
+gem "rest-client"
+gem "rspec", ">=3.7.0"
+gem "factory_bot"
+gem "faker"
+gem "pry"
