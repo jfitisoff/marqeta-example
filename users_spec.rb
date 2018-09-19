@@ -27,7 +27,7 @@ describe "/users" do
     end
 
     it "raises an error when creating a user with name > 40 chars" do
-     expect {api.users.post(first_name: 'a'*41) }.to raise_error(RestClient::BadRequest)
+       expect {api.users.post(first_name: 'a'*41) }.to raise_error(RestClient::BadRequest)
     end
   end
 end
