@@ -1,7 +1,7 @@
 # marqeta-example
 Some sample tests for Marqeta's "Core" API, including a limited API definition and a very simple factory for users.
 
-The tests use some [API client code](https://github.com/jfitisoff/klient) that I've been working on. The client is very basic and has just enough functionality to write some tests. Some of the main limitations right now:
+The tests use some [API client code](https://github.com/jfitisoff/klient) that I've been working on. This client is very basic and has just enough functionality to write some tests. Some of the main limitations right now:
  * Only supports JSON.
  * When a request results in a collection an array of individual resources are returned (but the goal is to replace this with a collection class that supports pagination.)
  * No handling for embedded resources.
