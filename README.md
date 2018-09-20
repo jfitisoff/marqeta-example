@@ -1,11 +1,12 @@
 # marqeta-example
 Some sample tests for Marqeta's "Core" API.
 
-The tests use an API client I've been working on. The client is still pretty rough around the edges but it worked well enough to write these tests. Some of the main limitations right now:
+The tests use an API client I've been developing. This client is very basic and has just enough functionality to write some tests. Some of the main limitations right now:
  * Only supports JSON.
  * When a request results in a collection an array of individual resources are returned (but the goal is to replace this with a collection class that supports pagination.)
  * No handling for embedded resources.
- * There's no gem at the moment (This repo just references the repo for the experimental client.)
+
+There's no gem for the client at the moment (This example repo just references the repo for the experimental client.) Still thinking about how much time I want to invest in it.
 
 ## Setup
 1. Clone the repo.
