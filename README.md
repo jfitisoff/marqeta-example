@@ -15,7 +15,7 @@ There's no gem for the client at the moment (This example repo just references t
 
 3. Run bundler to install dependencies.
 
-To run the spec: `bundle exec rspec users_spec.rb`
+To run the spec: `bundle exec rspec spec/users_spec.rb`
 
 There's also a console app that loads the API: `bundle exec ./console.rb`
 

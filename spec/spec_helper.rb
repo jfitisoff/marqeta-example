@@ -5,7 +5,8 @@ require "faker"
 require "securerandom"
 require "yaml"
 
+
 CREDS = YAML.load(File.read('credentials.yml'))
 
-require_relative "api/marqeta_core"
-require_relative "factories/user"
+require_relative "support/api/marqeta_core"
+require_relative "support/factories/user"

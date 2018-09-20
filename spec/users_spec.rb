@@ -1,4 +1,4 @@
-require_relative 'support/spec_helper'
+require_relative 'spec_helper'
 
 describe "/users" do
   before(:all) do
