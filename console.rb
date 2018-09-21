@@ -1,7 +1,7 @@
 #!/usr/bin/env ruby
 
 require "pry"
-require "./support/spec_helper"
+require "./spec/spec_helper"
 
 api = MarqetaCore.new(
   CREDS["base_url"],

@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jfitisoff/klient.git
-  revision: e1fe889c76dbb1523fe9aa7ec7b1b259dec7f34f
+  revision: 2eea02f58892ea21a047ad9d37d24b498f6bbb7c
   branch: return-resources
   specs:
     klient (0.0.1)
@@ -82,4 +82,4 @@ DEPENDENCIES
   rspec (>= 3.7.0)
 
 BUNDLED WITH
-   1.16.5
+   1.16.3
