@@ -1,6 +1,6 @@
 GIT
   remote: https://github.com/jfitisoff/klient.git
-  revision: 2eea02f58892ea21a047ad9d37d24b498f6bbb7c
+  revision: 944c5b4200ec53d2576e69102c7508f60f2e0563
   branch: return-resources
   specs:
     klient (0.0.1)
